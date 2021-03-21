@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Santuario Animal</title>
+    <style>
+    /* h1 {
+        color: blueviolet;
+        font-size: 50px;
+    } */
+    </style>
+    <!--en esta parte se hace referencia a los estilos-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="fondo">
+    
+    <!-- se encarga de mostrar el logo de nuestra pagina web -->
+        <img src="imagenes/1.jpg" style="margin: 10px 10px 20px 600px;" width= "150" height="100" >
+
+        <!--es el menu con el cual cambiamos el contenido de la pagina web-->
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menú</button>
+        <a href="index.html" class="nav-enlace desaparece">Inicio</a>
+        <a href="adopcion.html" class="nav-enlace desaparece">¿En qué consiste adoptar?</a>
+        <a href="contactanos.html" class="nav-enlace desaparece">Contactanos</a>
+        <a href="#" class="nav-enlace desaparece">Servicios</a>
+        <a href="#" class="nav-enlace desaparece">Contacto</a>
+    </nav>
+    <!--muestra el texto del titulo separandolo de lo demas xon un section-->
+    <section>
+        <h1>Bienvenidos al Santuario Animal</h1>
+        <i>“Adopta una mascota. Las historias llegarán solas.”</i>
+    </section>
+    <!--en esta parte se agrega una imagen y texto sobre esa imagen-->
+    <section class="contenedor">
+        <img src="imagenes/2.jpg" width= "1335" height="500">
+        <div class="texto-encima">Adopta un Amigo<br>
+            Un punto de encuentro entre un nuevo amigo y tu
+        </div>
+    </section>
+    <!--se agrega una pista de audio para ambientar la pagina-->
+    <article>
+        <audio autoplay loop controls >
+            <source src="video-audio/1.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+          </audio>
+  </article>
+    <!--vamos a citar el texto de una pagina y agregarle el link en la cita para que redirija a esa pagina-->
+  <aside>
+    <p class="citas">Cosas que debes saber antes de:</p>
+<blockquote>
+  <p class="citas">La Importancia De La Esterilización Y El Cuidado Responsable De Los Animales</p>
+  <footer>
+    <cite><a class="citas" href="https://clinicaveterinariavetfamily.com/la-importancia-de-la-esterilizacion-y-el-cuidado-responsable-de-los-animales/">"CLÍNICAS VETERINARIAS VET FAMILY"</a></cite>
+  </footer>
+</blockquote>
+  </aside>
+  <!--muestra un video que se encuentra en internet-->
+  <iframe class="centrado" width="560" height="315" src="https://www.youtube.com/embed/Ob7s8RmV3T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<section>
+    <!--texto de expocicion sobre nuestra vision y mision (como centro de adopcion de mascotas)-->
+    <h3 class="centrado2">El Santuario</h3>
+    <div class="texto-encima2">Rescatamos, recuperamos y damos un hogar temporal seguro a todos aquellos animales que han sido a abandonados con la esperanza de que encuentren en el futuro proximo un nuevo hogar donde puedan recibir mucho amor.
+    </div>
+</section>
+</body>
+</html>
